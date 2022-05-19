@@ -34,6 +34,7 @@ def welcome_note():
 
 def collect_responses():
     for response in questions:
+        print("Which of the following best describes you?")
         print(response)
         questions_lst.append(input())
 
